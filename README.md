@@ -221,3 +221,15 @@ flags:
 -pk  (optional)     : 234...ab8ad8e99f   must be 64 characters and no 0x prefix
 -testnet (optional) : set this to use Sepolia testnet sends
 ```
+
+## To check an Ethereum transaction from Ethereum to Verus
+
+This gets a ReserveTransfer from the txid input
+
+```shell
+node getETHTx.js -tx 0x644e0643ba35d608b8cd7423a103865a6cf67e7d9a1357e70ccc610e3c950f24
+```
+flags:
+```
+-tx            : Ethereum txid
+```
